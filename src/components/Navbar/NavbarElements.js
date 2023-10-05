@@ -28,19 +28,18 @@ export const NavLink = styled(Link)`
 export const NavIcon = styled.div`
   display: flex;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 2rem;
+  right: 2rem;
   cursor: pointer;
   color: #fff;
 
   p {
-    transform: translate(-100%, 100%);
     font-weight: bold;
     font-size: 22px;
+    margin-right: 5px;
   }
 `;
 
 export const Bars = styled(FaPizzaSlice)`
-  font-size: 3rem;
-  transform: translate(-60%, 50%);
+  font-size: 1.6rem;
 `;

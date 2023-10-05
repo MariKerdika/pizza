@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ImgBg from "../../images/yellow.jpg";
 export const ProductsContainer = styled.div`
   min-height: 100vh;
   background: #150f0f;

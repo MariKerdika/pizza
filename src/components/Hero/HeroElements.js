@@ -28,7 +28,6 @@ export const HeroItems = styled.div`
   height: 100vh;
   max-height: 100%;
   padding: 0 2rem;
-  width: 650px;
   color: #fff;
   text-transform: uppercase;
   line-height: 1;
@@ -41,13 +40,14 @@ export const HeroItems = styled.div`
 
 export const HeroH1 = styled.h1`
   font-size: clamp(2.5rem, 10vw, 5rem);
-  margin-bottom: 1rem;
   box-shadow: 3px 3px #e9ba23;
   letter-spacing: 3px;
+  padding-right: 10px;
 `;
 
 export const HeroP = styled.p`
-  font-size: clamp(2rem, 2.5vw, 3rem);
+  font-size: 30px;
+  margin-top: 10px;
   margin-bottom: 2rem;
 `;
 
