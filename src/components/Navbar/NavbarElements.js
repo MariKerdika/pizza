@@ -12,7 +12,7 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -26,7 +26,7 @@ export const NavLink = styled(Link)`
 `;
 
 export const NavIcon = styled.div`
-  display: block;
+  display: flex;
   position: absolute;
   top: 0;
   right: 0;
@@ -34,12 +34,13 @@ export const NavIcon = styled.div`
   color: #fff;
 
   p {
-    trasnform: translate(-175%, 100%);
+    transform: translate(-100%, 100%);
     font-weight: bold;
+    font-size: 22px;
   }
 `;
 
 export const Bars = styled(FaPizzaSlice)`
-  font-size: 2 rem;
-  transform: translate(-50%, -15%);
+  font-size: 3rem;
+  transform: translate(-60%, 50%);
 `;
