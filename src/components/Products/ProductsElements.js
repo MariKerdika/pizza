@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import ImgBg from "../../images/yellow.jpg";
+
 export const ProductsContainer = styled.div`
   min-height: 100vh;
   background: #150f0f;
   color: #fff;
-  padding-top: 10rem;
+  padding: 10rem 0;
 `;
 export const ProductWrapper = styled.div`
   display: flex;
@@ -17,12 +17,18 @@ export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
   width: 300px;
+
+  @media screen and (max-width: 1100px) {
+    margin-bottom: 5rem;
+  }
 `;
 
 export const ProductImg = styled.img`
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
+  height: 200px;
+  object-fit: cover;
 `;
 
 export const ProductsHeading = styled.h1`

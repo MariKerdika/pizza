@@ -3,6 +3,9 @@ import { GlobalStyle } from "./globalStyles";
 import Hero from "./components/Hero";
 import Products from "./components/Products";
 import { productData } from "./components/Products/data";
+import Feature from "./components/Feature";
+import { productDataTwo } from "./components/Products/data";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Products heading="Choose your favourite" data={productData} />
+      <Feature />
+      <Products heading="Sweet Treats for you" data={productDataTwo} />
+      <Footer />
     </Router>
   );
 }
