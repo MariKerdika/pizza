@@ -57,7 +57,7 @@ export const HeroBtn = styled.button`
   border: none;
   background: #e31837;
   color: #fff;
-  transition: 0.2s ease-out;
+  transition: 0.5s;
 
   &:hover {
     background: #ffc500;
